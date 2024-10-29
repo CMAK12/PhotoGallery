@@ -1,0 +1,15 @@
+Z:\Programming\TestTasks\Inforce\Inforce.Persistence\bin\Debug\net8.0\Inforce.Persistence.deps.json
+Z:\Programming\TestTasks\Inforce\Inforce.Persistence\bin\Debug\net8.0\Inforce.Persistence.dll
+Z:\Programming\TestTasks\Inforce\Inforce.Persistence\bin\Debug\net8.0\Inforce.Persistence.pdb
+Z:\Programming\TestTasks\Inforce\Inforce.Persistence\bin\Debug\net8.0\Inforce.Core.dll
+Z:\Programming\TestTasks\Inforce\Inforce.Persistence\bin\Debug\net8.0\Inforce.Core.pdb
+Z:\Programming\TestTasks\Inforce\Inforce.Persistence\obj\Debug\net8.0\Inforce.Persistence.csproj.AssemblyReference.cache
+Z:\Programming\TestTasks\Inforce\Inforce.Persistence\obj\Debug\net8.0\Inforce.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Programming\TestTasks\Inforce\Inforce.Persistence\obj\Debug\net8.0\Inforce.Persistence.AssemblyInfoInputs.cache
+Z:\Programming\TestTasks\Inforce\Inforce.Persistence\obj\Debug\net8.0\Inforce.Persistence.AssemblyInfo.cs
+Z:\Programming\TestTasks\Inforce\Inforce.Persistence\obj\Debug\net8.0\Inforce.Persistence.csproj.CoreCompileInputs.cache
+Z:\Programming\TestTasks\Inforce\Inforce.Persistence\obj\Debug\net8.0\Inforce..EB81F0C3.Up2Date
+Z:\Programming\TestTasks\Inforce\Inforce.Persistence\obj\Debug\net8.0\Inforce.Persistence.dll
+Z:\Programming\TestTasks\Inforce\Inforce.Persistence\obj\Debug\net8.0\refint\Inforce.Persistence.dll
+Z:\Programming\TestTasks\Inforce\Inforce.Persistence\obj\Debug\net8.0\Inforce.Persistence.pdb
+Z:\Programming\TestTasks\Inforce\Inforce.Persistence\obj\Debug\net8.0\ref\Inforce.Persistence.dll

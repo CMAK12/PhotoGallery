@@ -1,0 +1,97 @@
+.album-view-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.album-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.album-title {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.create-image-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.create-image-button:hover {
+  background-color: #218838;
+}
+
+.album-images {
+  margin-top: 2rem;
+}
+
+.album-images h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.image-item {
+  position: relative;
+}
+
+.album-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.like-button, .dislike-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.like-button i, .dislike-button i {
+  margin-right: 0.3rem;
+}
+
+.like-button:hover {
+  background-color: #0056b3;
+}
+
+.dislike-button {
+  background-color: #d9534f;
+}
+
+.dislike-button:hover {
+  background-color: #c9302c;
+}

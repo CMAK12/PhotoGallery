@@ -1,0 +1,15 @@
+Z:\Programming\TestTasks\Inforce\Inforce.Infrastructure\bin\Debug\net8.0\Inforce.Infrastructure.deps.json
+Z:\Programming\TestTasks\Inforce\Inforce.Infrastructure\bin\Debug\net8.0\Inforce.Infrastructure.dll
+Z:\Programming\TestTasks\Inforce\Inforce.Infrastructure\bin\Debug\net8.0\Inforce.Infrastructure.pdb
+Z:\Programming\TestTasks\Inforce\Inforce.Infrastructure\obj\Debug\net8.0\Inforce.Infrastructure.csproj.AssemblyReference.cache
+Z:\Programming\TestTasks\Inforce\Inforce.Infrastructure\obj\Debug\net8.0\Inforce.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Programming\TestTasks\Inforce\Inforce.Infrastructure\obj\Debug\net8.0\Inforce.Infrastructure.AssemblyInfoInputs.cache
+Z:\Programming\TestTasks\Inforce\Inforce.Infrastructure\obj\Debug\net8.0\Inforce.Infrastructure.AssemblyInfo.cs
+Z:\Programming\TestTasks\Inforce\Inforce.Infrastructure\obj\Debug\net8.0\Inforce.Infrastructure.csproj.CoreCompileInputs.cache
+Z:\Programming\TestTasks\Inforce\Inforce.Infrastructure\obj\Debug\net8.0\Inforce.Infrastructure.dll
+Z:\Programming\TestTasks\Inforce\Inforce.Infrastructure\obj\Debug\net8.0\refint\Inforce.Infrastructure.dll
+Z:\Programming\TestTasks\Inforce\Inforce.Infrastructure\obj\Debug\net8.0\Inforce.Infrastructure.pdb
+Z:\Programming\TestTasks\Inforce\Inforce.Infrastructure\obj\Debug\net8.0\ref\Inforce.Infrastructure.dll
+Z:\Programming\TestTasks\Inforce\Inforce.Infrastructure\bin\Debug\net8.0\Inforce.Core.dll
+Z:\Programming\TestTasks\Inforce\Inforce.Infrastructure\bin\Debug\net8.0\Inforce.Core.pdb
+Z:\Programming\TestTasks\Inforce\Inforce.Infrastructure\obj\Debug\net8.0\Inforce..5396A675.Up2Date

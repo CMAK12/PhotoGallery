@@ -1,0 +1,14 @@
+Z:\Programming\TestTasks\Inforce\Inforce.Core\bin\Debug\net8.0\Inforce.Core.deps.json
+Z:\Programming\TestTasks\Inforce\Inforce.Core\bin\Debug\net8.0\Inforce.Core.runtimeconfig.json
+Z:\Programming\TestTasks\Inforce\Inforce.Core\bin\Debug\net8.0\Inforce.Core.dll
+Z:\Programming\TestTasks\Inforce\Inforce.Core\bin\Debug\net8.0\Inforce.Core.pdb
+Z:\Programming\TestTasks\Inforce\Inforce.Core\obj\Debug\net8.0\Inforce.Core.csproj.AssemblyReference.cache
+Z:\Programming\TestTasks\Inforce\Inforce.Core\obj\Debug\net8.0\Inforce.Core.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Programming\TestTasks\Inforce\Inforce.Core\obj\Debug\net8.0\Inforce.Core.AssemblyInfoInputs.cache
+Z:\Programming\TestTasks\Inforce\Inforce.Core\obj\Debug\net8.0\Inforce.Core.AssemblyInfo.cs
+Z:\Programming\TestTasks\Inforce\Inforce.Core\obj\Debug\net8.0\Inforce.Core.csproj.CoreCompileInputs.cache
+Z:\Programming\TestTasks\Inforce\Inforce.Core\obj\Debug\net8.0\Inforce.Core.dll
+Z:\Programming\TestTasks\Inforce\Inforce.Core\obj\Debug\net8.0\refint\Inforce.Core.dll
+Z:\Programming\TestTasks\Inforce\Inforce.Core\obj\Debug\net8.0\Inforce.Core.pdb
+Z:\Programming\TestTasks\Inforce\Inforce.Core\obj\Debug\net8.0\Inforce.Core.genruntimeconfig.cache
+Z:\Programming\TestTasks\Inforce\Inforce.Core\obj\Debug\net8.0\ref\Inforce.Core.dll

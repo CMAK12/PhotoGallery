@@ -1,0 +1,167 @@
+.albums-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .album-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .album-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .album-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .album-title {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .like-button, .dislike-button, .view-button, .delete-button {
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .like-button, .view-button {
+    background-color: #5cb85c;
+    color: #fff;
+  }
+  
+  .dislike-button {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  .delete-button {
+    background-color: #0275d8;
+    color: #fff;
+    margin-top: 0.5rem;
+  }
+  
+  .like-button:hover, .view-button:hover {
+    background-color: #4cae4c;
+  }
+  
+  .dislike-button:hover {
+    background-color: #c9302c;
+  }
+  
+  .delete-button:hover {
+    background-color: #025aa5;
+  }
+
+  ::ng-deep {
+    .ngx-pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+    }
+  
+    .ngx-pagination li {
+      width: 35px;
+      height: 35px;
+      border-radius: 50% !important;
+      background-color: #f8f8f8;
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      &.disabled {
+        padding: none !important;
+      }
+
+      &.small-screen {
+        display: none !important;
+      }
+
+      &.pagination-previous, 
+      &.pagination-next {
+        a,span {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          overflow: hidden;
+          color: #f8f8f8
+        }
+      }
+    }
+
+    .current, .ngx-pagination .disabled {
+      padding: 0rem 0rem !important;
+    }
+
+    .ngx-pagination li.pagination-previous a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .ngx-pagination .pagination-previous a:before,
+    .ngx-pagination .pagination-previous.disabled:before,
+    .ngx-pagination .pagination-next::before {
+      margin-right: 0px !important;
+      font-size: 26px;
+      margin-top: -8px;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      color: #2199e8;
+      left: 0;
+      pointer-events: none;
+    }
+
+    .ngx-pagination .pagination-next::before {
+      content: '\bb';
+    }
+
+    .ngx-pagination .pagination-next::after {
+      display: none !important;
+    }
+
+    .ngx-pagination .pagination-previous.disabled.pagination-previous.disabled:before,
+    .ngx-pagination .pagination-next.disabled:before {
+      opacity: 0.4;
+    }
+
+    .ngx-pagination .pagination-previous.disabled:hover {
+      background-color: #f8f8f8 !important;
+    }
+
+    .ngx-pagination a:hover,
+    .ngx-pagination button:hover {
+      background: initial !important;
+    }
+  }

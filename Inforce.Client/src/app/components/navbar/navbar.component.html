@@ -1,0 +1,30 @@
+<nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" routerLink="/">Photo Gallery</a>
+      <ul class="navbar-nav">
+        @if (!auth.isAuthenticated()) {
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/login" routerLinkActive="active">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/register" routerLinkActive="active">Register</a>
+          </li>
+        } @else {
+          <li class="nav-item">
+            <button class="nav-link logout-but" (click)="logOut()" routerLinkActive="active">Log Out</button>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/album-create" routerLinkActive="active">Create an album</a>
+          </li>
+        }
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/albums" routerLinkActive="active">Album Table</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/user_albums/', auth.getCurrentUserId]">
+            My Albums
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>

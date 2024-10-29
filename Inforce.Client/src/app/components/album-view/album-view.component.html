@@ -1,0 +1,39 @@
+<div class="album-view-container">
+    <div class="album-header">
+        <h1 class="album-title">{{ album.title }}</h1>
+        <a *ngIf="authService.getCurrentUserId === album.userId" [routerLink]="['/image-create/', album.id]" routerLinkActive="active" class="create-image-button">
+            <i class="fas fa-plus"></i> Add Image
+        </a>
+    </div>
+
+    <div class="album-images">
+        <h2>Images</h2>
+        <div class="images-grid">
+            <div class="image-item" *ngFor="let image of images">
+                <img [src]="image.url" alt="Album Image" class="album-image" />
+                <div class="image-actions">
+                    @if (authService.isAuthenticated()) {
+                        <button (click)="likeImage(authService.getCurrentUserId, image)" class="like-button">
+                            <i class="fas fa-thumbs-up"></i>Like {{ image.likesCount || 0 }}
+                        </button>
+                        <button (click)="dislikeImage(authService.getCurrentUserId, image)" class="dislike-button">
+                            <i class="fa-solid fa-thumbs-down"></i>Dislike {{ image.dislikesCount || 0 }}
+                        </button>
+                        <button *ngIf="authService.isAdmin() || authService.getCurrentUserId === image.userId" 
+                        (click)="deleteImage(image.id)" 
+                        class="dislike-button">
+                            Delete
+                        </button>
+                    } @else {
+                        <button class="like-button">
+                            <i class="fas fa-thumbs-up"></i>Like {{ image.likesCount || 0 }}
+                        </button>
+                        <button class="dislike-button">
+                            <i class="fa-solid fa-thumbs-down"></i>Dislike {{ image.dislikesCount || 0 }}
+                        </button>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

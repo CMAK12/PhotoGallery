@@ -1,0 +1,22 @@
+<div class="albums-card-container">
+  @for (album of albums | paginate: { itemsPerPage: itemsPerPage, currentPage: page }; track $index) {
+    <div class="album-card">
+      <img [src]="getThumbnail(album)" alt="Album Cover" class="album-cover" />
+      <div class="album-details">
+        <h3 class="album-title">{{ album.title }}</h3>
+        <div class="button-group">
+        </div>
+        <button (click)="viewAlbum(album.id)" class="view-button">View</button>
+        @if (authService.isAdmin() || album.userId === authService.getCurrentUserId) {
+          <button (click)="deleteAlbum(album.id)" class="delete-button">Delete</button>
+        }
+      </div>
+    </div>
+  } @empty {
+    <h1>No albums found</h1>
+  }
+</div>
+
+<div class="pagination-container">
+  <pagination-controls (pageChange)="page = $event" class="custom-pagination"></pagination-controls>
+</div>

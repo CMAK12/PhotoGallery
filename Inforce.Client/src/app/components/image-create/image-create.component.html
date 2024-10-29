@@ -1,0 +1,10 @@
+<div class="container">
+    <h2>Add New Image</h2>
+    <form class="form">
+        <div class="form-group">
+            <label for="image" class="form-label">Image Upload</label>
+            <input type="file" (change)="onFileSelected($event)" accept="image/*">
+        </div>
+        <button (click)="uploadImage()">Upload</button>
+    </form> 
+</div>

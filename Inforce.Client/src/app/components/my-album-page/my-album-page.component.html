@@ -1,0 +1,15 @@
+<div class="albums-card-container">
+    <div class="album-card" *ngFor="let album of albums">
+      <img src="getThumbnail(album)" alt="Album Cover" class="album-cover" />
+      <div class="album-details">
+        <h3 class="album-title">{{ album.title }}</h3>
+        <div class="button-group">
+        </div>
+        <button (click)="viewAlbum(album.id)" class="view-button">View</button>
+        @if (authService.isAdmin() || album.userId === authService.getCurrentUserId) {
+          <button (click)="deleteAlbum(album.id)" class="delete-button">Delete</button>
+        }
+      </div>
+    </div>
+  </div>
+  

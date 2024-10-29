@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+  
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .navbar-brand {
+      color: #fff;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+  
+    .navbar-nav {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      
+      .nav-item .nav-link {
+        color: #ddd;
+        text-decoration: none;
+  
+        &.active, &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .logout-but {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
